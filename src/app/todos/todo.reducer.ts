@@ -10,9 +10,7 @@ import {
 } from './todo.actions';
 
 export const estadoInicial: Todo[] = [
-  new Todo('Amar al mamorsh'),
-  new Todo('Consentir a Kalvito'),
-  new Todo('Trabajar :('),
+  new Todo('Tarea 1'),
 ];
 
 const _todoReducer = createReducer(
